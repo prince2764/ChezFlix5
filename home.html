@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+     <div class="search-box1">
+        <span class="icon"><ion-icon name="search"></ion-icon></span>
+        <input type="search" name="" id="search-input" placeholder="search movie">
+     </div>
+    <div class="slidebar">
+        <ul>
+            <li class="log">
+                <a href="#">
+                    <span class="icon"><ion-icon name="tv-outline"></ion-icon></span>
+                    <span class="text">ChezFlix</span>
+                </a>
+            </li>
+            <li class="search-box">
+                <a href="#">
+                    <span class="icon"><ion-icon name="search"></ion-icon></span>
+                    <span class="text"><input type="search" placeholder="search..."></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></span>
+                    <span class="text">Trending</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="compass"></ion-icon></ion-icon></span>
+                    <span class="text">Explore</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                 <span class="icon"><ion-icon name="heart"></ion-icon></span>
+                    <span class="text">Favourite</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="download"></ion-icon></span>
+                    <span class="text">Download</span>
+                </a>
+            </li>
+            <li>
+                </a>
+            </li>
+            <div class="bottom">
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="settings"></ion-icon></span>
+                        <span class="text">Settings</span>
+                    </a>
+                </li>
+            <li>
+                    <a href="#" id="btn">
+                    <span class="icon"><ion-icon name="moon-sharp"></ion-icon></span>
+                    <span class="text">Dark/Light mode</span>
+                    </a>
+            </li>
+            <li  >
+                <a href="#">
+                    <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul> 
+       </div>
+       <div class="container">
+        <img src="action/godzilla_vs_kong_ver19_xxlg.jpg" alt="">
+       </div>
+
+       <script>
+        let btn = document.getElementById("btn")
+
+        btn.onclick = function(){
+            document.body.classList.toggle("dark-theme")
+        }
+       </script>
+
+      
+
+       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
